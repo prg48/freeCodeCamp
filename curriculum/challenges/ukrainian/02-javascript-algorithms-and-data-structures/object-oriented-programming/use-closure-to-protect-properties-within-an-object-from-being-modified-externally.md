@@ -52,7 +52,7 @@ assert(code.match(/(var|let|const)\s+weight\s*\=\s*15\;?/g));
 assert(new Bird().getWeight() === 15);
 ```
 
-Ваша функція `getWeight` повинна повернути приватну змінну `weight`.
+Функція `getWeight` має повернути приватну змінну `weight`.
 
 ```js
 assert(code.match(/((return\s+)|(\(\s*\)\s*\=\>\s*))weight\;?/g));

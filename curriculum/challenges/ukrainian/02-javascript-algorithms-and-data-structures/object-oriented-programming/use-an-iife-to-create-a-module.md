@@ -51,7 +51,7 @@ duck.glide();
 
 # --instructions--
 
-Створіть модуль з назвою `funModule` для обгортки двох змішувань `isCuteMixin` та `singMixin`. `funModule` повинен повернути об'єкт.
+Створіть модуль з назвою `funModule` для обгортки двох змішувань `isCuteMixin` та `singMixin`. `funModule` має повернути об’єкт.
 
 # --hints--
 

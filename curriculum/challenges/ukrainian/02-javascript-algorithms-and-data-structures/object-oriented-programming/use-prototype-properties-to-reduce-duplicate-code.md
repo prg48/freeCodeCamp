@@ -33,7 +33,7 @@ console.log(canary.numLegs);
 
 # --hints--
 
-`beagle` повинен мати властивість `numLegs` визначену числом.
+`beagle` повинен мати властивість `numLegs`.
 
 ```js
 assert(beagle.numLegs !== undefined);

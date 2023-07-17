@@ -46,7 +46,7 @@ function joinBirdFraternity(candidate) {
 assert(typeof joinDogFraternity === 'function');
 ```
 
-`joinDogFraternity` має перетворюватись на `true`, якщо `candidate` є екземпляром `Dog`.
+`joinDogFraternity` має повернути `true`, якщо `candidate` є екземпляром `Dog`.
 
 ```js
 assert(joinDogFraternity(new Dog('')) === true);
